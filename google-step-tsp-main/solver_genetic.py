@@ -96,21 +96,6 @@ def solve(cities):
 
 
 if __name__ == '__main__':
-    '''
-    filename = 'input_1.csv'
-    cities = read_input(filename)
-    tour = solve(cities)
-    #print_tour(tour)
-    filename = 'input_2.csv'
-    cities = read_input(filename)
-    tour = solve(cities)
-    #print_tour(tour)
-    filename = 'input_3.csv'
-    cities = read_input(filename)
-    tour = solve(cities)
-    #print_tour(tour)        
-    '''
-
     #filename = 'input_5.csv'
     #cities = read_input(filename)
     #tour5 = solve(cities)
@@ -118,6 +103,5 @@ if __name__ == '__main__':
     filename = 'input_6.csv'
     cities = read_input(filename)
     tour6 = solve(cities)
-    
-    print(tour5)
-    print(tour6)
+
+    print_tour(tour6)
