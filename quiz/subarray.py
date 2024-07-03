@@ -35,7 +35,6 @@ def solve_n2(L, K):
     for left in range(n - K + 1):
         for right in range(left + K - 1, n):
             max_sum = max(max_sum, prefix_sum[right + 1] - prefix_sum[left])
-            # print(left, right)
     return max_sum
 
 
